@@ -1,0 +1,97 @@
+* {
+    color: white;
+    background-color: rgb(25, 25, 82);
+}
+
+body {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    font-size: 30pt;
+    background-color: rgb(41, 95, 175);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a, button {
+    height: 30px;
+    border-color:  rgb(115, 187, 241);
+    background-color: rgb(115, 187, 241);
+    color: black;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 10px 10px 40px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgb(95, 167, 221);
+}
+
+button:hover {
+    background-color: rgb(95, 167, 221);
+}
+
+#externa {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20pt;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+}
+
+#interna {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    text-align: center;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+#comandos{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+footer {
+    margin: 0;
+    font-size: 10pt;
+    background-color: rgb(41, 95, 175);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+}
